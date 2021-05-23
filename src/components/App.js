@@ -13,13 +13,13 @@ function App() {
 
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      123123
+      {/* <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" render={ () => <Rates />} />
           <Route exact path="/exchange" render={ () => <Exchange />} />
-          {/*<Redirect to="/" />*/}
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }
